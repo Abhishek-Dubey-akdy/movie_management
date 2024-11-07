@@ -71,13 +71,13 @@ if m == 10:
         while ans == 'y':
             print('=========================================================================================================')
             a = int(input('Enter the movie_id :'))
-            s = input('Enter the name of the movie :')
+            s = input('Enter the name of the movie inside ' ' :')
             d = float(input('Enter IMDB rating of the movie :'))
-            f = input('Enter name of the director of the movie :')
-            g = input('Enter name of the actor of the movie :')
-            h = input('Enter genre of the movie :')
-            j = input('Enter release year of the movie :')
-            k = input('Enter duration of the movie :')
+            f = input('Enter name of the director of the movie inside ' ' :')
+            g = input('Enter name of the actor of the movie inside ' ' :')
+            h = input('Enter genre of the movie inside ' ' :')
+            j = input('Enter release year of the movie inside ' ' :')
+            k = input('Enter duration of the movie inside ' ' :')
 
             add_data(a,s,d,f,g,h,j,k)
 
