@@ -1,8 +1,11 @@
 # code for the movie management
+import os
+from dotenv import load_dotenv
 import cowsay
 import mysql.connector as myc
+load_dotenv()
 
-x = myc.connect(host="localhost",user="root",passwd="pin@53z1985",database="movie_management" )  # connecting py & MySql
+x = myc.connect(host="localhost",user="root",passwd=os.getenv("password"),database="movie_management" )  # connecting py & MySql
 mycursor = x.cursor() # creating cursor
 
 think = 'y'
